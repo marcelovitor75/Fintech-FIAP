@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Actor';
+    src: url('../fonts/Actor-Regular.ttf');
+  }
+
+@font-face {
+    font-family: 'Lustria';
+    src: url('../fonts/Lustria-Regular.ttf');
+}
+
+
+body{
+    background-color: #d9d9d9;
+}
+
+.card-bg{
+    background-color: #282C34;
+    border-radius: 0px;
+}
+
+.ftco-section{
+    padding: 3em 0;
+}
+
+ .card-text-titulo{
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: 'Actor';
+ }
+ 
+.card-text-pagar{
+    color: #E46262;
+    font-size: 30px;
+    font-family: 'Lustria';
+ }
+
+.card-text-receber{
+    color: #62E49E;
+    font-size: 30px;
+    font-family: 'Lustria';
+ }
+
+ .lista-text-pagar{
+    color: #E46262;
+    font-size: 20px;
+    font-family: 'Lustria';
+ }
+
+.lista-text-receber{
+    color: #62E49E;
+    font-size: 20px;
+    font-family: 'Lustria';
+ }
+
+ h1{
+    color: #282C34;
+ }
+
+ h2{
+    font-family: 'Actor';
+    color: #282C34;
+ }
+
+ .separador {
+    border-bottom: 1px solid #d9d9d9;
+  }
+ 
+.center{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.saldo{
+    background-color: #d9d9d9;
+    padding: 5px;
+    font-weight: bold;
+    color: #282C34;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #d9d9d9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 0px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }

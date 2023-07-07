@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Actor';
+    src: url('../fonts/Actor-Regular.ttf');
+  }
+
+body{
+    font-family: 'Actor';
+    background-color: #d9d9d9;
+}
+
+.login-section {
+    padding: 7em;
+ }
+
+.login-bg{
+    background-color: #282C34;
+    border-radius: 0px;
+}
+.login-btn{
+    background-color: #C26969;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.login-footer{
+    color: #d9d9d9;
+}
